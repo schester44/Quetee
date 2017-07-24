@@ -1,0 +1,21 @@
+{
+    "name": "chester/queuemanager",
+    "description": "A task runner / job queue manager",
+    "keywords": ["job queue", "task runner"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Steven Chester",
+            "email": "schester44@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"autoload": {
+        "psr-4": {
+            "Chester\\QueueManager\\": "src/"
+        }
+    }
+}
